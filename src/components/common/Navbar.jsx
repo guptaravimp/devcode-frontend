@@ -2,7 +2,7 @@ import { Link, matchPath } from 'react-router-dom'
 import devcodelogo1 from "../../assets/Images/devcodelogo1.png"
 // import devcode2 from "../../assets/Logo/devcode2.png"
 import { TiShoppingCart } from "react-icons/ti";
-
+import { IoIosArrowUp } from "react-icons/io";
 import { NavbarLinks } from '../../data/navbar-links'
 import { useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
