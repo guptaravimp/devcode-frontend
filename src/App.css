@@ -1,0 +1,132 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+.glass{
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+
+
+  .glass2{
+    /* From https://css.glass */
+  background: rgba(13, 18, 30, 0.75);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.3px);
+  -webkit-backdrop-filter: blur(7.3px);
+  border: 1px solid rgba(13, 18, 30, 0.3);
+  }
+
+
+
+  .spinner {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    animation: spinner-plncf9 4s infinite;
+ }
+ 
+ .spinner::before,
+ .spinner::after {
+    content: "";
+    grid-area: 1/1;
+    border: 9px solid;
+    border-radius: 50%;
+    border-color: #474bff #474bff #0000 #0000;
+    mix-blend-mode: darken;
+    animation: spinner-plncf9 1s infinite linear;
+ }
+ 
+ .spinner::after {
+    border-color: #0000 #0000 #dbdcef #dbdcef;
+    animation-direction: reverse;
+ }
+ 
+ @keyframes spinner-plncf9 {
+    100% {
+       transform: rotate(1turn);
+    }
+ }
+  .homepage-background{
+    background-image: url("./assets/Images/frameimage.png");
+    width: 100%;
+  }
+  .boxshadow{
+    border-radius: 80%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  }
+
+
+  /* .container {
+    padding: 20px;
+    font-size: 16px;
+  } */
+  
+  /* @media (max-width: 768px) {
+    .Navigationhai {
+    }
+  } */
+  
+  @media (max-width: 896px) {
+    .Navwalalink {
+      opacity: 0;
+    }
+  }
+  
