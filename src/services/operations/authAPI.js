@@ -6,7 +6,7 @@ import { endpoints } from "../apis"
 import { setLoading, setToken } from "../../slices/authSlice"
 // setToken
 import { setUser } from "../../slices/profileSlice"
-import { apiconnector } from "../apiConnector"
+import { apiconnector } from "../apiconnector"
 const {
   SENDOTP_API,
   SIGNUP_API,
