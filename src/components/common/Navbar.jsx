@@ -73,7 +73,7 @@ function Navbar() {
 
 
                       <div className='invisible absolute left-[50%] 
-                        translate-x-[-35%] translate-y-[25%] 
+                        translate-x-[-35%] translate-y-[8%] 
                         top-[10%] flex flex-col rounded-md bg-richblack-5 p-4 z-20 text-richblack-900 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 lg:w-[180px] cursor-pointer'>
                         <div className='absolute left-[50%] top-0 h-6 w-8 rotate-45 rounded bg-richblack-5'></div>
                         {/* {
