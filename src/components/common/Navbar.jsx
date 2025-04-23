@@ -65,10 +65,13 @@ function Navbar() {
               <li key={index} className='text-[18px]'>
                 {
                   links.title === 'Catalog' ? (
-                    <div className=' relative flex justify-between items-center  group '>
+                    <div className="relative flex justify-between items-center group cursor-pointer">
 
                       <p>{links.title}</p>
-                      <IoIosArrowDown />
+                      <span className="ml-1 text-xl">
+                        <IoIosArrowDown className="group-hover:hidden block" />
+                        <IoIosArrowUp className="group-hover:block hidden" />
+                      </span>
 
 
 
