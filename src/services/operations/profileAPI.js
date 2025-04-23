@@ -6,7 +6,7 @@ import { toast } from "react-hot-toast";
 
 import { logout } from "./authAPI.js";
 import { setToken } from "../../slices/authSlice.js";
-import { apiconnector } from "../apiConnector.js";
+import { apiconnector } from "../apiconnector.js";
 profileEndpoints
 const {
   UPDATE_DISPLAY_PICTURE_API,
