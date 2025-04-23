@@ -5,7 +5,7 @@ import HighlightText from '../components/core/HomePages/HighlightText';
 import HomeButton from '../components/core/HomePages/HomeButton';
 import homevideo from "../assets/Images/homevideo.mp4"
 import CodeDiv from '../components/core/HomePages/CodeDiv';
-import TimePathSection from '../components/core/HomePages/TimePathSection';
+
 import LearningLangSection from '../components/core/HomePages/LearningLangSection';
 import BecomeanInstructor from '../components/core/HomePages/BecomeanInstructor';
 import ExploreMore from '../components/core/HomePages/ExploreMore';
@@ -186,7 +186,7 @@ function Home() {
 
                         </div>
                     </div>
-                    <TimePathSection />
+                   
                     <LearningLangSection />
 
 
