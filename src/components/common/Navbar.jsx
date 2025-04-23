@@ -7,7 +7,7 @@ import { NavbarLinks } from '../../data/navbar-links'
 import { useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 // import { FaCartArrowDown } from "react-icons/fa";
-// import { apiconnector } from '../../services/apiconnector'
+import { apiconnector } from '../../services/apiconnector';
 import { categoriesendpoints } from '../../services/apis'
 import { IoIosArrowDown } from "react-icons/io";
 import ProfileDropDown from '../core/Auth/ProfileDropDown'
