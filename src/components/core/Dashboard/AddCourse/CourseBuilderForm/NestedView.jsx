@@ -5,7 +5,7 @@ import { VscTrash } from 'react-icons/vsc';
 import { VscTriangleDown } from 'react-icons/vsc';
 import { useState } from 'react';
 import ConfirmationModal from ".././../../.././common/ConfirmationModal"
-import SubSectionModal from '.SubSectionModal';
+import SubSectionModal from './SubSectionModal';
 import { deleteSection, deleteSubSection } from '../../../../../services/operations/courseDetailsAPI';
 import { setCourse } from '../../../../../slices/courseSlice';
 import { RxDropdownMenu } from 'react-icons/rx'
